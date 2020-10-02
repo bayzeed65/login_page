@@ -1,0 +1,78 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: url(../img/1.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+.form{
+    width: 400px;
+    height: 350px;
+    padding: 15px;
+    border-radius:10px;
+    border: 5px solid transparent;
+    box-shadow: 5px 5px 30px 15px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+.user{
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    border-radius:8px;
+    border: 2px solid transparent ;
+    margin-bottom: 5px;
+    font-size: 20px;
+    padding: 10px;
+    outline: none;
+}
+::placeholder{
+    font-size: 20px;
+    color: lightgrey;
+}
+button{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    background-color:dodgerblue;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+button:focus{
+    outline: none;
+}
+.login{
+    font-weight: 900;
+    font-family: vardana;
+    font-size: 18px;
+    background-color: dodgerblue;
+    border: none;
+    outline: none;
+}
+.pp{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 2px;
+    color: dodgerblue;
+}
+.pp a{
+    text-decoration: none;
+}
+.ppp{
+    width:250px;
+    height: 50px;
+    background-color: dodgerblue;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+.ppp a{
+    color: black;
+    font-size: 18px;
+    font-weight: 800;
+    font-family: vardana;
+    text-decoration: none;
+}
